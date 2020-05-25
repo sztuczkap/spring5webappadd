@@ -1,12 +1,11 @@
 package sztuczkap.springframework.spring5webapp.controller;
 
-
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import sztuczkap.springframework.spring5webapp.repositories.BookRepository;
 
-@Component
+@Controller
 public class BookController {
 
     private final BookRepository bookRepository;
